@@ -81,6 +81,30 @@ or ``conda``::
 
 The documentation includes more detailed `installation instructions <http://scikit-learn.org/stable/install.html>`_.
 
+## Installing pandas and matplotlib
+Pandas is an open source library that provides data structures and analysis tools for
+Python. pandas is a powerful library, and several books describe how to use pandas
+for data analysis. We will use a few of panda's convenient tools for importing data
+and calculating summary statistics.
+pandas can be installed on Windows, OS X, and Linux using pip with the
+following command:
+```
+pip install pandas
+```
+pandas can also be installed on Debian- and Ubuntu-based Linux distributions using
+the following command:
+```
+apt-get install python-pandas
+```
+Matplotlib is a library used to easily create plots, histograms, and other charts with
+Python. We will use it to visualize training data and models. matplotlib has several
+dependencies. Like pandas, matplotlib depends on NumPy, which should already
+be installed. On Debian- and Ubuntu-based Linux distributions, matplotlib and its
+dependencies can be installed using the following command:
+```
+apt-get install python-matplotlib
+```
+
 
 Changelog
 ---------
